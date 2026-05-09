@@ -31,18 +31,31 @@ h1 {
   
 }
 
-p{
-  text-align:left;
-  width: 500px;
-  margin: 0 auto;
+p {
+
+align-items: center;
+  text-align: center;
+
+  
+  margin: 50px 300px;
   font-weight: lighter;
+  font-size: 6 em;
 }
 
 h2 {
-  text-indent: 30px;
+  
+  margin-left: 300px;
   font-weight: lighter;
 }
 
+ul {
+  list-style:none;
+}
+ul li {
+  margin-left: 300px;
+  align-content: center;
+
+}
 
 img{
   display: block;
@@ -52,6 +65,8 @@ img{
 ol {
     
   list-style: none;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 ol > li {
@@ -62,4 +77,9 @@ ol > li {
 ol > li::before {
  
   content: counter(listcounter) ")";
+}
+
+hr {
+  margin: 0 300px;
+
 }
